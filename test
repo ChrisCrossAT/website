@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Showtänzer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Willkommen auf meinem Tanz-Portfolio!</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">Über mich</a></li>
+                <li><a href="#videos">Videos</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>Über mich</h2>
+        <p>Ich bin ein professioneller Showtänzer und Choreograf mit über 10 Jahren Erfahrung. Meine Leidenschaft für Tanz hat mich durch zahlreiche Auftritte weltweit geführt.</p>
+    </section>
+
+    <section id="videos">
+        <h2>Meine Videos</h2>
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/example_video" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Kontakt</h2>
+        <p>Für Anfragen oder Buchungen können Sie mich über die folgenden Kontaktmöglichkeiten erreichen:</p>
+        <ul>
+            <li>Email: <a href="mailto:info@tanzshow.de">info@tanzshow.de</a></li>
+            <li>Telefon: +49 123 456 789</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Tanzshow - Alle Rechte vorbehalten</p>
+    </footer>
+</body>
+</html>
